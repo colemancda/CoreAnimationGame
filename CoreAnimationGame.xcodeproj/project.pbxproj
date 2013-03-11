@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E75D49016EC3B4400512978 /* CDAExpressSpriteMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E75D48F16EC3B4400512978 /* CDAExpressSpriteMaker.m */; };
+		6E75D49616ECEED600512978 /* corazoncito.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E75D49516ECEED600512978 /* corazoncito.png */; };
+		6E75D49916ED0A8100512978 /* road_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E75D49716ED0A8100512978 /* road_1.png */; };
+		6E75D49A16ED0A8100512978 /* road_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E75D49816ED0A8100512978 /* road_2.png */; };
+		6E75D49C16ED0DC900512978 /* corazoncito@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E75D49B16ED0DC900512978 /* corazoncito@2x.png */; };
+		6EE914ED16EBC0010075D906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE914EC16EBC0010075D906 /* UIKit.framework */; };
+		6EE914EF16EBC0010075D906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE914EE16EBC0010075D906 /* Foundation.framework */; };
+		6EE914F116EBC0010075D906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE914F016EBC0010075D906 /* CoreGraphics.framework */; };
+		6EE914F716EBC0010075D906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE914F516EBC0010075D906 /* InfoPlist.strings */; };
+		6EE914F916EBC0010075D906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE914F816EBC0010075D906 /* main.m */; };
+		6EE914FD16EBC0010075D906 /* CDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE914FC16EBC0010075D906 /* CDAAppDelegate.m */; };
+		6EE914FF16EBC0010075D906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE914FE16EBC0010075D906 /* Default.png */; };
+		6EE9150116EBC0010075D906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE9150016EBC0010075D906 /* Default@2x.png */; };
+		6EE9150316EBC0010075D906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE9150216EBC0010075D906 /* Default-568h@2x.png */; };
+		6EE9150C16EC03760075D906 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9150A16EC03760075D906 /* GamesViewController.m */; };
+		6EE9171416EC0FCB0075D906 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9171316EC0FCB0075D906 /* QuartzCore.framework */; };
+		6EE9171D16EC2C930075D906 /* CDAParallaxLayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9171C16EC2C930075D906 /* CDAParallaxLayerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E75D48E16EC3B4400512978 /* CDAExpressSpriteMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAExpressSpriteMaker.h; sourceTree = "<group>"; };
+		6E75D48F16EC3B4400512978 /* CDAExpressSpriteMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAExpressSpriteMaker.m; sourceTree = "<group>"; };
+		6E75D49516ECEED600512978 /* corazoncito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corazoncito.png; sourceTree = "<group>"; };
+		6E75D49716ED0A8100512978 /* road_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road_1.png; sourceTree = "<group>"; };
+		6E75D49816ED0A8100512978 /* road_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = road_2.png; sourceTree = "<group>"; };
+		6E75D49B16ED0DC900512978 /* corazoncito@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corazoncito@2x.png"; sourceTree = "<group>"; };
+		6EE914E916EBC0010075D906 /* CoreAnimationGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE914EC16EBC0010075D906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EE914EE16EBC0010075D906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EE914F016EBC0010075D906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EE914F416EBC0010075D906 /* CoreAnimationGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreAnimationGame-Info.plist"; sourceTree = "<group>"; };
+		6EE914F616EBC0010075D906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE914F816EBC0010075D906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EE914FA16EBC0010075D906 /* CoreAnimationGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreAnimationGame-Prefix.pch"; sourceTree = "<group>"; };
+		6EE914FB16EBC0010075D906 /* CDAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAAppDelegate.h; sourceTree = "<group>"; };
+		6EE914FC16EBC0010075D906 /* CDAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDAAppDelegate.m; sourceTree = "<group>"; };
+		6EE914FE16EBC0010075D906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6EE9150016EBC0010075D906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6EE9150216EBC0010075D906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6EE9150916EC03760075D906 /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		6EE9150A16EC03760075D906 /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		6EE9171316EC0FCB0075D906 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6EE9171B16EC2C930075D906 /* CDAParallaxLayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAParallaxLayerModel.h; sourceTree = "<group>"; };
+		6EE9171C16EC2C930075D906 /* CDAParallaxLayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAParallaxLayerModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE914E616EBC0010075D906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE9171416EC0FCB0075D906 /* QuartzCore.framework in Frameworks */,
+				6EE914ED16EBC0010075D906 /* UIKit.framework in Frameworks */,
+				6EE914EF16EBC0010075D906 /* Foundation.framework in Frameworks */,
+				6EE914F116EBC0010075D906 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE914E016EBC0010075D906 = {
+			isa = PBXGroup;
+			children = (
+				6EE914F216EBC0010075D906 /* CoreAnimationGame */,
+				6EE914EB16EBC0010075D906 /* Frameworks */,
+				6EE914EA16EBC0010075D906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE914EA16EBC0010075D906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE914E916EBC0010075D906 /* CoreAnimationGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE914EB16EBC0010075D906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE9171316EC0FCB0075D906 /* QuartzCore.framework */,
+				6EE914EC16EBC0010075D906 /* UIKit.framework */,
+				6EE914EE16EBC0010075D906 /* Foundation.framework */,
+				6EE914F016EBC0010075D906 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE914F216EBC0010075D906 /* CoreAnimationGame */ = {
+			isa = PBXGroup;
+			children = (
+				6EE915BE16EC0C7F0075D906 /* Sprites */,
+				6EE914FB16EBC0010075D906 /* CDAAppDelegate.h */,
+				6EE914FC16EBC0010075D906 /* CDAAppDelegate.m */,
+				6EE9150916EC03760075D906 /* GamesViewController.h */,
+				6EE9150A16EC03760075D906 /* GamesViewController.m */,
+				6EE9171B16EC2C930075D906 /* CDAParallaxLayerModel.h */,
+				6EE9171C16EC2C930075D906 /* CDAParallaxLayerModel.m */,
+				6E75D48E16EC3B4400512978 /* CDAExpressSpriteMaker.h */,
+				6E75D48F16EC3B4400512978 /* CDAExpressSpriteMaker.m */,
+				6EE914F316EBC0010075D906 /* Supporting Files */,
+			);
+			path = CoreAnimationGame;
+			sourceTree = "<group>";
+		};
+		6EE914F316EBC0010075D906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE914F416EBC0010075D906 /* CoreAnimationGame-Info.plist */,
+				6EE914F516EBC0010075D906 /* InfoPlist.strings */,
+				6EE914F816EBC0010075D906 /* main.m */,
+				6EE914FA16EBC0010075D906 /* CoreAnimationGame-Prefix.pch */,
+				6EE914FE16EBC0010075D906 /* Default.png */,
+				6EE9150016EBC0010075D906 /* Default@2x.png */,
+				6EE9150216EBC0010075D906 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EE915BE16EC0C7F0075D906 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				6E75D49516ECEED600512978 /* corazoncito.png */,
+				6E75D49B16ED0DC900512978 /* corazoncito@2x.png */,
+				6E75D49716ED0A8100512978 /* road_1.png */,
+				6E75D49816ED0A8100512978 /* road_2.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE914E816EBC0010075D906 /* CoreAnimationGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE9150616EBC0010075D906 /* Build configuration list for PBXNativeTarget "CoreAnimationGame" */;
+			buildPhases = (
+				6EE914E516EBC0010075D906 /* Sources */,
+				6EE914E616EBC0010075D906 /* Frameworks */,
+				6EE914E716EBC0010075D906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAnimationGame;
+			productName = CoreAnimationGame;
+			productReference = 6EE914E916EBC0010075D906 /* CoreAnimationGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE914E116EBC0010075D906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CDA;
+			};
+			buildConfigurationList = 6EE914E416EBC0010075D906 /* Build configuration list for PBXProject "CoreAnimationGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EE914E016EBC0010075D906;
+			productRefGroup = 6EE914EA16EBC0010075D906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE914E816EBC0010075D906 /* CoreAnimationGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE914E716EBC0010075D906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE914F716EBC0010075D906 /* InfoPlist.strings in Resources */,
+				6EE914FF16EBC0010075D906 /* Default.png in Resources */,
+				6EE9150116EBC0010075D906 /* Default@2x.png in Resources */,
+				6EE9150316EBC0010075D906 /* Default-568h@2x.png in Resources */,
+				6E75D49616ECEED600512978 /* corazoncito.png in Resources */,
+				6E75D49916ED0A8100512978 /* road_1.png in Resources */,
+				6E75D49A16ED0A8100512978 /* road_2.png in Resources */,
+				6E75D49C16ED0DC900512978 /* corazoncito@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE914E516EBC0010075D906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE914F916EBC0010075D906 /* main.m in Sources */,
+				6EE914FD16EBC0010075D906 /* CDAAppDelegate.m in Sources */,
+				6EE9150C16EC03760075D906 /* GamesViewController.m in Sources */,
+				6EE9171D16EC2C930075D906 /* CDAParallaxLayerModel.m in Sources */,
+				6E75D49016EC3B4400512978 /* CDAExpressSpriteMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE914F516EBC0010075D906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE914F616EBC0010075D906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE9150416EBC0010075D906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EE9150516EBC0010075D906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE9150716EBC0010075D906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreAnimationGame/CoreAnimationGame-Prefix.pch";
+				INFOPLIST_FILE = "CoreAnimationGame/CoreAnimationGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EE9150816EBC0010075D906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreAnimationGame/CoreAnimationGame-Prefix.pch";
+				INFOPLIST_FILE = "CoreAnimationGame/CoreAnimationGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE914E416EBC0010075D906 /* Build configuration list for PBXProject "CoreAnimationGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE9150416EBC0010075D906 /* Debug */,
+				6EE9150516EBC0010075D906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE9150616EBC0010075D906 /* Build configuration list for PBXNativeTarget "CoreAnimationGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE9150716EBC0010075D906 /* Debug */,
+				6EE9150816EBC0010075D906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE914E116EBC0010075D906 /* Project object */;
+}
